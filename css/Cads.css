@@ -1,0 +1,1460 @@
+
+@font-face {
+font-family:Poppins;
+src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+font-family:Poppins-Bold;
+src: url(../fonts/Poppins-Bold.ttf);
+}
+
+
+@font-face {
+font-family:walter;
+src: url(../fonts/Walter.ttf);
+}
+@font-face {
+font-family:remachine;
+src: url(../fonts/RemachineScript_Personal_Use.ttf);
+}
+@font-face {
+font-family:castellar;
+src: url(../fonts/castellar-regular.ttf);
+}
+
+.esp {
+ 
+
+  animation: pulse infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s; /* don't forget to set a duration! */
+
+  animation-delay: 1s;
+
+}
+.cab {
+  display: inline-block;
+
+  animation: shakeY ; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+
+  animation-delay: 1s;
+
+}
+.musica{
+
+	  animation: heartBeat ; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+
+  animation-delay: 1s;
+}
+
+
+.baj{
+  animation: bounce infinite ; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+
+  animation-delay: 1s;
+
+}
+
+
+
+.first{
+	background: none;
+	border:none;
+
+}
+
+.second {
+  display: none;
+  background: none;
+	border:none;
+
+}
+
+ #float-mus {
+	position: fixed;
+	right: 24px;
+	bottom: 25px;
+	width: 60px;
+	z-index: 1000;
+	display: none;
+	background: rgba(147, 127, 85, 0.23);
+border-radius: 70px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 0.17);
+animation: bounceInUp ; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+
+ 
+
+
+
+
+}
+
+ #float-mus2 {
+	position: fixed;
+	right: 24px;
+	bottom: 25px;
+	width: 60px;
+	z-index: 1000;
+	display: none;
+	background: rgba(147, 127, 85, 0.23);
+border-radius: 70px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 0.17);
+
+
+}
+#float-mus{
+	bottom: 95px;
+	display: block;
+}
+ #float-mus i{
+	font-size: 50px;
+}
+#float-mus i{
+	
+	
+}
+
+.baj2 {
+  display: none;
+  background: none;
+	border:none;
+ 	animation: flipInX ; 
+  animation-duration: 1s;  
+
+  animation-delay: ;
+}
+
+.cl {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: tada infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+
+  animation-delay: 2s;
+
+}
+
+.l1 {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+
+  
+
+}
+.l2 {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+
+ 
+
+}
+
+
+/* From https://css.glass */
+
+
+
+#body2{
+
+background-color: #f7f0ea;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important
+
+}
+
+#es{
+
+
+background: url(../img/es.png) repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important
+
+}
+
+
+
+
+
+
+#bcc{
+
+background: url(../img/6e51c94ed8a5d3ac9b92d56337d32fcd.gif);
+ background-repeat: no-repeat;
+  background-size: 50px 50px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important
+
+}
+
+
+
+#body4{
+
+
+background: url(../img/fondo5.jpg) repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important
+
+}
+
+
+#body1{
+	background-color: #f7f0ea;
+
+
+}
+
+.navbar-toggler{
+
+	background-color: #FFF;
+} 
+#nav{
+	padding: 1.5%;
+
+background-color:#00796b;
+color:#fff;
+}
+
+#navbarNav{
+
+	
+}
+
+#navbarNav li a{
+font-family: remachine;
+	color: #6E5F41 !important;
+	font-size: 4.5vh;
+}
+
+#titulo{
+
+	color: #FFF;
+	 font-size: 3.5vh;
+	font-family:Poppins;
+}
+.fa-award{
+	color: #fff;
+	margin-right: 2%
+}
+
+
+.fa-check-circle{
+	color: #fff;
+	
+}
+
+#elementos a p{
+
+
+	font-family:Poppins;
+	color: #fff;
+	font-size: 3vh;
+
+}
+
+
+#contenido1 {
+	margin: 0 !important;
+	 background-color:rgba(255, 255, 255, 0.0);
+	 color: #937f55;
+	 padding: 2%
+
+
+} 
+
+
+#contenido1 p {
+	font-size: 2.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#contenido1 h1 {
+	font-size: 3.4vh;
+	font-family:Poppins;
+
+
+} 
+
+
+
+#contenido1_1 {
+
+
+	 padding: 0% !important;
+	 margin:0px !important;
+	 color: 
+
+
+
+} 
+
+.modal-body{
+
+background: url(../img/bl.jpg) repeat center center fixed; 
+
+border-radius: 10px;
+border: none !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	 display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: zoomIn ;/* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+
+  
+
+}
+#baj{
+ animation:bounce infinite;/* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+  animation-delay: 1s;
+
+}
+.bc{
+
+
+
+
+  animation:swing;/* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.5s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+
+
+  
+
+}
+
+#contenido1_1 p {
+	font-size: 2.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#contenido1_1 h1 {
+	font-size: 1.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#ini-co_1{
+
+	margin: 0px !important;
+	padding: 0px !important;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+#contenido1_mv {
+	margin: 0 !important;
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 2%
+
+
+} 
+iframe { 
+			border: 3px solid #ffcf7b; 
+			border-radius: 30px; 
+			margin: 50px;
+	
+		} 
+
+.mask1 {
+  -webkit-mask-image: url(../img/es.png);
+  mask-image: url(../img/es.png);
+  mask-repeat: no-repeat;    
+}
+
+#contenido1_mv p {
+	font-size: 2.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#contenido1_mv h1 {
+	font-size: 3.4vh;
+	font-family:Poppins;
+
+
+} 
+
+
+
+
+
+#contenido2 {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 4%
+
+
+} 
+
+
+#contenido2 p {
+	font-size: 2.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#contenido2 h1 {
+	font-size: 3.4vh;
+	font-family:Poppins;
+
+
+} 
+
+
+#novedades {
+
+
+
+
+}
+
+#testimonios {
+
+  
+    
+
+}
+
+#prueba{
+	padding: 1%
+}
+
+
+#contenido2_2 {
+
+	 
+	 color: #fff;
+	 
+
+} 
+
+
+#contenido2_2 p {
+	font-family:Poppins;
+
+
+} 
+
+
+
+
+
+
+
+#contenido3 {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 2%;
+
+
+} 
+
+
+#contenido3 p {
+	font-size: 2.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#contenido3 h1 {
+	font-size: 3.4vh;
+	font-family:Poppins;
+
+
+} 
+
+#contenido-p {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 padding: 3%;
+
+
+} 
+
+
+
+#co1{
+background-color: transparent;
+border-color: transparent;
+
+}
+
+#co2{
+background-color: transparent;
+border-color: transparent;
+
+
+}
+
+#pp{
+ background-color:#fff;
+color: #000;
+}
+
+
+
+
+#pp p{
+
+font-size: 2.3vh;
+font-family:Poppins;
+
+}
+#pp a{
+text-decoration: none;
+color: #FFF
+
+}
+
+.fa-facebook{
+	color: #fff;
+}
+
+
+#nov{
+margin-bottom: 2%;
+
+}
+
+
+
+
+
+
+
+#correo{
+
+	
+	color: #937f55;
+
+
+}
+
+#correo h3{
+
+	
+	color: #937f55;
+	font-family:Poppins;
+	font-size: 3vh;
+
+}
+
+#correo2 h3{
+
+	font-family:Poppins-Bold;
+	font-size: 2.5vh;
+
+	
+}
+
+  
+
+
+#mapa{
+
+	padding-top: 2%;
+	padding-bottom: 2%; 
+	background-color: #fff ;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: #019d5e;
+
+}
+  
+ #ban{
+ 	padding-left:3%;
+ 	padding-right: 3%;
+
+ }
+
+  #ban_1-1{
+ 	font-size: 2.9vh;
+
+ }
+
+  #test_1-1{
+  	padding-left:4%;
+ 	padding-right: 4%;
+ 	font-size: 2.3vh;
+	font-family:Poppins;
+	 color: #937f55;
+	 background-color:rgba(255, 255, 255, 0.9);
+	 border-radius: 30px 30px 30px 30px;
+	 
+ }
+
+   #test_1-1 a{
+  	
+ 	font-size: 2.5vh;
+	font-family:Poppins;
+	 color: #fff;
+	
+	
+	 
+ }
+
+
+ #pro {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+
+
+} 
+
+
+ #produc {
+	font-family:Poppins;
+	
+
+	
+} 
+
+ #c-pro h2 {
+	font-family:Poppins;
+	font-size: 6vh !important;
+	 color: #fff;
+} 
+
+
+
+
+
+ #produc_des {
+	font-family:Poppins;
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+	 margin: 0px !important;
+padding: 0px !important;
+} 
+
+ #c-pro_des h2 {
+	font-family:Poppins;
+	font-size: 6vh !important;
+	 color: #fff;
+	 background-color:#937f55;
+	 margin: 0px !important;
+padding: 1% !important;
+
+} 
+
+
+
+
+ #produc_sub {
+	font-family:Poppins;
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+	 margin: 0px !important;
+padding: 0px !important;
+} 
+
+ #c-pro_sub h2 {
+	font-family:Poppins;
+	font-size: 6vh !important;
+	 color: #fff;
+	 background-color:#937f55;
+	 margin: 0px !important;
+padding: 1%;
+
+
+
+
+} 
+
+
+
+
+
+
+#con-pro1 h2{
+
+	font-family:Poppins;
+	font-size: 5vh !important;
+	 color: #937f55;
+}
+
+
+#con-pro2 h2{
+
+	font-family:Poppins;
+	font-size: 5vh !important;
+	 color: #937f55;
+}
+
+#con-pro3 h2{
+
+	font-family:Poppins;
+	font-size: 5vh !important;
+	 color: #937f55;
+}
+
+
+ #hidra {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 2%;
+
+
+} 
+
+
+
+ #concen {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+
+
+} 
+
+
+ #cloro {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+
+
+} 
+
+
+ #extracto {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+
+
+} 
+
+ #germinado {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 3%;
+
+
+} 
+
+
+
+
+ #registros {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 1%;
+
+
+} 
+
+
+ #empresa {
+	
+	 background-color:rgba(255, 255, 255, 0.9);
+	 color: #937f55;
+	 padding: 1%;
+
+
+} 
+
+
+
+
+#pro p {
+	font-size: 2.5vh;
+	font-family:Poppins;
+
+
+} 
+
+#pro h1 {
+	font-size: 3.4vh;
+	font-family:Poppins;
+
+
+} 
+
+#piepag h4 {
+
+	font-family:Poppins;
+
+
+} 
+#piepag p{
+
+	font-family:Poppins;
+	font-size: 2.7vh;	
+
+
+} 
+
+#ini-1 h2 {
+
+	font-family:Poppins-Bold;
+	font-size: 5.5vh;
+	
+	 color: #937f55;
+
+
+} 
+
+#ini-1 p {
+
+	font-family:Poppins;
+	font-size: 3vh;
+	 
+	 color: #937f55;
+	 text-align: justify;
+
+} 
+
+#ini-2 h2 {
+
+
+	font-family:remachine;
+	font-size: 5vh;
+	
+	color: #937f55;
+
+} 
+#ini-2 h3 {
+
+
+	font-family:remachine;
+	font-size: 3.5vh !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	
+	color: #937f55;
+
+} 
+
+
+
+
+
+#ini-3 h2 {
+
+	font-family:Poppins-BOLD;
+	font-size: 3vh;
+	 color: #000;
+
+
+
+} 
+
+#ini-3 {
+
+
+
+
+} 
+
+#ini-3_3 {
+
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px
+
+
+
+} 
+
+
+#ini-4{
+	margin:0 !important; 
+	padding: 0 !important
+}
+
+
+#ini-5 h2 {
+
+	font-family:Poppins;
+	font-size: 6vh;
+	 color: #fff;
+
+
+} 
+
+#ini-5 {
+
+		background: url(../img/ma.png) repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important;
+
+} 
+
+
+#ini-5 h2 {
+
+	font-family:walter;
+	font-size: 6vh;
+	 color: #fff;
+
+
+} 
+#cl{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#ini-5 h3 {
+
+	font-family:Poppins;
+	font-size: 4vh;
+	 color: #fff;
+
+
+} 
+
+#ini-5 a {
+
+	font-family:Poppins;
+	font-size: 4.5vh;
+	 color:#ffd101;
+	 text-decoration: none;
+
+
+} 
+
+
+#ini-6 h2 {
+
+	font-family:walter  !important;
+	font-size: 4.7vh !important;
+	
+	color: #937f55 !important;
+} 
+
+#ini-7 {
+
+	background: url(../img/pas.png) repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important;
+} 
+
+
+
+#ini-7 h1 {
+
+	font-family:Poppins;
+	font-size: 6vh;
+	color : #fff;
+} 
+
+
+#ini-8 {
+
+
+} 
+
+#ini-8 h1 {
+
+	font-family:Poppins;
+	font-size: 6vh;
+	color : #fff;
+} 
+
+#ini-10 {
+
+
+} 
+
+#ini-10 h1 {
+
+	font-family:Poppins;
+	font-size: 6vh;
+	color : #fff;
+} 
+
+
+
+
+#p-1 h2 {
+
+	font-family:Poppins !important;
+	font-size: 6vh;
+	 color: #937f55;
+
+
+} 
+
+
+
+#p-2 p {
+
+	font-family:Poppins !important;
+	font-size: 4.2vh;
+	 color: #937f55;
+
+
+} 
+
+
+
+.dropdown-menu a:hover {
+
+	background-color: #019d5e !important;
+}
+
+#concen {
+
+	background: url(../img/fo-it_4.png) repeat center center fixed; 
+
+	
+}
+
+
+#cloro {
+
+	background: url(../img/fo-it_5.png) repeat center center fixed; 
+
+	
+}
+
+
+#hidra {
+
+	background: url(../img/fo-it_4.png) repeat center center fixed; 
+
+	
+}
+
+
+#extracto {
+
+	background: url(../img/fo-it_6.png) repeat center center fixed; 
+
+	
+}
+
+#germinado {
+
+	background: url(../img/fo-it_7.png) repeat center center fixed; 
+
+	
+}
+
+#it {
+
+	
+	 background-color:rgba(255, 255, 255, 0.8);
+	 border-radius: 0px 5px 20px 20px;
+	 
+	
+}
+
+
+#it p{
+
+	
+	 padding: 7%;
+	
+}
+
+#it h5{
+
+	
+	 padding: 1%;
+	font-size: 2.5vh;
+
+	
+}
+
+.pr{
+
+	
+	font-family:Poppins;
+	font-size: 2.4vh;
+	
+}
+
+#enca {
+
+	background: url(../img/it_6.png)no-repeat top center;
+	font-family:Poppins !important;
+	font-size: 5vh;
+	 color: #fff; 
+	
+}
+
+#ti1 {
+	font-family:walter  !important;
+	font-size: 4.7vh !important;
+	margin-top: 1.5%;
+	color: #937f55 !important;
+	
+}
+#carga_1{
+	font-family:walter  !important;
+	font-size: 4.7vh !important;
+	margin-top: 1.5%;
+	color: #937f55 !important;
+	
+}
+#carga_2 {
+	font-family:walter  !important;
+	font-size: 2vh !important;
+	margin-top: 1.5%;
+	color: #937f55 !important;
+	
+}
+#EMI {
+	font-family:walter  !important;
+	font-size: 8vh !important;
+	color:#f70300;
+	margin-top: 1.5%;
+	
+}
+
+#carga{
+	font-family:walter  !important;
+	font-size: 6vh;
+	color:#f3f3f3;
+	margin-top: 1.5%;
+	
+}
+
+#produc-ini p{
+
+	
+
+
+
+
+}
+
+#produc-ini {
+
+
+padding: 0% !important;
+	margin:0px !important;
+
+
+
+
+}
+#t1{
+	background: url(../img/ro.png)no-repeat center center;
+	padding: 0% !important;
+	margin:0px !important;
+
+
+}
+#produc-ini_1{
+	background: url(../img/tecnologia.png)no-repeat center center;
+	padding: 0% !important;
+	margin:0px !important;
+
+
+}
+#produc-ini_2{
+		background: url(../img/alimentos.png)no-repeat center center;
+
+
+	padding: 0% !important;
+	margin:0px !important;
+
+
+}
+#produc-ini_3{
+	background: url(../img/accesorios.png)no-repeat center center;
+
+
+	padding: 0% !important;
+	margin:0px !important;
+
+
+}
+#produc-ini_4{
+	background: url(../img/servicios.png)no-repeat center center;
+
+	padding: 0% !important;
+	margin:0px !important;
+
+
+}
+
+#produc-general{
+
+	background-color: #fff;
+	padding: 0% !important;
+	margin:0px !important;
+
+
+}
+
+
+
+
+
+
+
+
+#produc-ini a{
+
+	text-decoration: none
+
+
+}
+
+
+#fondo-1{
+	background-color: #fff
+	
+	margin-top:5% !important;
+	margin-bottom:6% !important; 
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+
+	padding-left: 3% !important;
+	 padding-right: 3% !important
+	
+}
+
+#fondo-2{
+	background: url(../img/fo-it_13.png)repeat center center;
+	padding: 1%;
+	
+}
+
+#fondo-historia{
+	background: url(../img/fo-it_12.png)repeat center center;
+	padding-left: 7%;
+	padding-right:7%;
+
+	
+}
+
+#fondo-empresa{
+	background: url(../img/fo-it_12.png)repeat center center;
+	padding-left: 7%;
+	padding-right:7%;
+
+	
+}
+
+
+
+.modal-title {
+
+font-family:Poppins !important;
+	font-size: 5vh;
+	color: #fff;
+
+}
+
+.modal-body {
+
+font-family:Poppins; !important;
+	font-size: 2.6vh;
+	color:#937f55;
+
+}
+
+.btn-secondary{
+font-family:Poppins !important;
+font-size: 3.4vh;
+	color:#fff;
+
+
+}
+#btn-it{
+	background-color:#019d5e;
+}
+
+#btn-test{
+	background-color:none;
+	color: #937f55;
+}
+
+#central{
+
+	background: url(../img/fondo_13.png) repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 !important
+	
+}
+.nav-link{
+	fill:#fff !important;
+}
+.nn{
+	color: #fff !important;
+}
+.carousel-caption{
+font-family:Poppins-Bold !important;
+background-color:none;
+color: #fff;
+text-shadow: 0 0px 4px #000;
+
+}
+
+.carousel-caption p{
+font-family:Poppins !important;
+background-color:none;
+	color: #937f55;
+text-shadow: none;
+
+}
+
+#pie-icono i{
+
+	color: #937f55;
+
+}
+#pie-icono h4{
+
+		font-family:Poppins-Bold !important;
+		color: #937f55;
+		font-size: 2.4vh;
+
+}
+
+
+#pie-icono p{
+
+		font-family:Poppins !important;
+		color: #937f55;
+		font-size: 2vh;
+
+}
+#indicador-carousel{
+	color:#9e9e9e;
+}
+#indicador-carousel_1{
+	color:#9e9e9e;
+}
+
+
+.ir-arriba {
+	display:none;
+	background-color: #d42c43;
+	padding:0 0 0 0%;
+	margin: :0%;
+	width: 30px;
+     height: 30px;
+	
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+	 -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+}
+
+
+
+#pie {
+  
+   	font-family: Poppins-Bold;
+    
+   
+   color:#fff;
+   margin-top: 720%
+}
+
+#login{
+
+padding: 13%;
+margin: 0px;
+}
+#login_form{
+	background-color: #d42c43;
+	padding:13%;
+	font-family: Poppins; 
+	color: #fff;
+	margin:0px;
+
+}
+
+#la{
+	font-family: Poppins-Bold;
+	font-size: 2.6vh;
+}
